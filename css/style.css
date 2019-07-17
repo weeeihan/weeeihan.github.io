@@ -30,12 +30,12 @@
 
 .fa-github {
   background: white;
-  opacity: 0;
+  opacity: black;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .fa-google {
@@ -44,13 +44,13 @@
 }
      
  .fa-youtube {
-  background: #bb0000;
-  color: white;
+  background: white;
+  color: black;
 }
      
    .fa-reddit {
-  background: #ff5700;
-  color: white;
+  background: white;
+  color: black;
 }
 body {
   background-color: #f5f5f5;
