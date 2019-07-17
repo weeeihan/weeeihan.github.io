@@ -24,8 +24,13 @@
      }
      
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+  background: white;
+  opacity: 0;
+}
+
+.fa-github {
+  background: white;
+  opacity: 0;
 }
 
 .fa-twitter {
