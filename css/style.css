@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  font-family: 'Gowun Dodum', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
+  font-family: 'Gowun Dodum', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -232,7 +232,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
-  float: left;
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
@@ -274,9 +273,28 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 100px;
   color: #FF9000 !important;
 }
+
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
 }
+
+#fh5co-features .feature-left .feature-copy .divimglogo {
+  /* align-self: center; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imglogo {
+  margin-top: 15px;
+  height: 120px;
+  width: 120px;
+}
+
 #fh5co-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
@@ -578,6 +596,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 18px;
 }
 .timeline > li.timeline-unverted {
+  direction: rtl;
   text-align: right;
 }
 @media screen and (max-width: 768px) {
@@ -1318,22 +1337,6 @@ input[type="text"] {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
-.divimglogo {
-  background-color: white;
-  width: 150px;
-  height: 150px;
-  margin-left: 110px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.imglogo {
-  margin-top: 15px;
-  height: 120px;
-  width: 120px;
-}
 
 #myImg {
   border-radius: 5px;
@@ -1420,3 +1423,4 @@ input[type="text"] {
     width: 100%;
   }
 }
+
